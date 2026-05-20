@@ -73,7 +73,7 @@ python app.py
 
 5. Abre http://127.0.0.1:5000 en tu navegador
 
-## Las 8 Tareas
+## Las 8 Tareas + BONUS
 
 | # | Tarea | Que aprendes | Entrega |
 |---|-------|-------------|---------|
@@ -85,6 +85,7 @@ python app.py
 | 6 | Base de datos | SQLite, guardar datos persistentes | BD + Portal |
 | 7 | Autenticacion | Login, sesiones, roles (Profesor vs Estudiante) | Login funcional |
 | 8 | CRUD completo | Crear, editar, eliminar tareas | Portal completo |
+| **9** | **Diseño CSS** | **Bootstrap, diseño profesional** | **Portal visualmente atractivo** |
 
 ## Estructura del proyecto
 
