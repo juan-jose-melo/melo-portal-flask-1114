@@ -1,8 +1,22 @@
 # Portal de Clase 1114 - Python y Flask
 
+## Clase 1114 - Introducción a Python y Flask
+
+**Profesor:** Henry Ortegon (Kyrbot Innovations)  
+**Horario:** Miércoles 16:45-18:10 | Jueves 12:30-14:20  
+**Aula:** 215  
+**Email Profesor:** henry@kyrbot.com
+
+---
+
 ## Que es este proyecto
 
-Es un **Portal Web educativo** donde estudiantes y profesor acceden a informacion de la clase.
+Es el **Portal Web oficial de Clase 1114** donde estudiantes y profesor acceden a:
+- Información de la clase
+- Tareas entregables
+- Calificaciones
+- Recursos educativos
+- Sistema de inscripción
 
 **Los alumnos van a construirlo paso a paso en 8 tareas**, aprendiendo:
 - Rutas y plantillas Flask
@@ -61,16 +75,16 @@ python app.py
 
 ## Las 8 Tareas
 
-| # | Tarea | Que aprendes |
-|---|-------|-------------|
-| 1 | Portal base | Levantar Flask, HTML, rutas basicas |
-| 2 | Datos dinamicos | Jinja2, variables de Python en HTML |
-| 3 | Multiple paginas | Varias rutas, menu de navegacion |
-| 4 | Listas y bucles | For en Jinja2, mostrar listas |
-| 5 | Formularios | Recibir datos del usuario |
-| 6 | Base de datos | SQLite, guardar datos persistentes |
-| 7 | Autenticacion | Login, sesiones, roles (Profesor vs Estudiante) |
-| 8 | CRUD completo | Crear, editar, eliminar tareas |
+| # | Tarea | Que aprendes | Entrega |
+|---|-------|-------------|---------|
+| 1 | Portal base | Levantar Flask, HTML, rutas basicas | Captura funcionando |
+| 2 | Datos dinamicos | Jinja2, variables de Python en HTML | app.py + index.html |
+| 3 | Multiple paginas | Varias rutas, menu de navegacion | 4 HTML + app.py |
+| 4 | Listas y bucles | For en Jinja2, mostrar listas | Tablas dinamicas |
+| 5 | Formularios | Recibir datos del usuario | Formulario inscripcion |
+| 6 | Base de datos | SQLite, guardar datos persistentes | BD + Portal |
+| 7 | Autenticacion | Login, sesiones, roles (Profesor vs Estudiante) | Login funcional |
+| 8 | CRUD completo | Crear, editar, eliminar tareas | Portal completo |
 
 ## Estructura del proyecto
 
@@ -85,7 +99,7 @@ clase-python-flask-1114/
 │   ├── panel_profesor.html
 │   ├── panel_estudiante.html
 │   └── ...mas templates
-└── tasks/             # Consignas de trabajo
+└── tasks/             # Consignas de trabajo (8 tareas)
     ├── tarea-1.md
     ├── tarea-2.md
     └── ... tarea-8.md
@@ -94,18 +108,18 @@ clase-python-flask-1114/
 ## Como iniciar cada tarea
 
 1. Lee la consigna en `tasks/tarea-X.md`
-2. Sigue los pasos
+2. Sigue los pasos paso a paso
 3. Modifica `app.py` y `templates/`
-4. Verifica en el navegador
-5. Entrga evidencia (capturas, archivos modificados)
+4. Verifica en el navegador en http://127.0.0.1:5000
+5. Entrega evidencia (capturas, archivos modificados)
 
-## Datos de prueba (Tarea 7+)
+## Datos de prueba (a partir de Tarea 7)
 
-Profesor:
+**Profesor:**
 - Usuario: `henry`
 - Contraseña: `password123`
 
-## Conceptos que vas a dominar
+## Lo que vas a aprender
 
 - Backend web con Python y Flask
 - Frontend HTML con Jinja2
@@ -114,8 +128,22 @@ Profesor:
 - Operaciones CRUD
 - Arquitectura MVC
 - Seguridad (hashing de contraseñas)
+- Desarrollo de aplicaciones web reales
 
-## Proximos pasos (Opcional)
+## Fechas importantes
+
+- **Tarea 1-2:** Semana 1 (Bases de Flask)
+- **Tarea 3-4:** Semana 2 (Rutas y listas)
+- **Tarea 5-6:** Semana 3-4 (Formularios y BD)
+- **Tarea 7-8:** Semana 5 (Autenticacion y CRUD)
+
+## Contacto
+
+- **Profesor:** henry@kyrbot.com
+- **GitHub:** https://github.com/hortegon
+- **Kyrbot:** https://kyrbot.com
+
+## Proximamente
 
 - Agregar calificaciones
 - Sistema de entregas de trabajos
@@ -124,8 +152,7 @@ Profesor:
 - Deploy en internet (Heroku, PythonAnywhere)
 - API REST
 
-## Creditos
+---
 
+**Portal de Clase 1114 - Introducción a Python y Flask**  
 Diseño y contenido: Henry Ortegon (Kyrbot Innovations)
-
-Portal de Clase 1114 - Introduccion a Python y Flask
