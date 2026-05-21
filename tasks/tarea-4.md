@@ -128,8 +128,15 @@ En HTML:
 ## Preguntas de reflexion
 
 1. Si tienes 50 tareas en la lista, ¿cuantas lineas de HTML necesitas escribir?
+Rta: No se requiere escribir nada en html ademas de lo necesario para que sirva:
+`{% for tarea in tareas %}`
+    `<li>{{ tarea }}</li>`
+`{% endfor %}`
 2. ¿Que pasa si accedes a una propiedad que no existe, como `{{ tarea.profesor }}`?
-3. ¿Como cambarias el bucle si quisieras mostrar solo las primeras 5 tareas?
+Rta: Por lo general no pasa nada simplemente se muestra blanco
+3. ¿Como cambiarias el bucle si quisieras mostrar solo las primeras 5 tareas?
+Rta: Se recorta en el archivo `app.py` usando un slice osea:
+`return render_template('index.html', tareas=lista_tareas[:5])`
 
 ## Entregable
 

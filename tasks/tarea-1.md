@@ -94,10 +94,15 @@ Eso significa que el servidor recibio la solicitud y respondo exitosamente (200 
 ## Preguntas de reflexion
 
 1. ¿Que rol tiene app.py en todo esto?
+Rta: Cumple con el rol de iniciar la aplicacion que muestra el `index.html`
 2. ¿Por que necesitas el entorno virtual (.venv)?
+Rta: Porque este permite tener un espacio aislado en el que se permite instalar flask y otras librerias
 3. ¿Donde se almacena el HTML que ves en el navegador?
+Rta: Se almacena en la carpeta `templates`
 4. Si cambias el HTML sin guardar, ¿se refleja el cambio en el navegador? ¿Por que?
+Rta: No sino se guarda el cambio y solo existe en la memoria RAM
 5. ¿Que es render_template y por que Flask lo usa?
+Rta: Busca el archivo HTML que le indiques dentro de la carpeta templates
 
 ## Entregable
 

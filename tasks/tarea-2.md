@@ -131,9 +131,13 @@ Edad: 25
 ## Preguntas de reflexion
 
 1. ¿Cual es la diferencia entre escribir datos en HTML vs guardarlos en variables Python?
+Rta: Si escribes un nombre directamente en el HTML, ese nombre siempre será el mismo para todos los usuarios sin embargo python puede cambiar el valor de esa variable según el usuario que inicie sesión
 2. Si el profesor cambia mañana, ¿cuantos archivos necesitas editar con este enfoque?
+Rta: Si se usa las variables de python solo se necesita editar un archivo `app.py`
 3. ¿Que ventaja tiene usar `{{ }}` en lugar de escribir texto fijo?
+Rta: Son la forma en que se le dice al navegador que en esa parte hay una variable de python
 4. ¿Donde se ejecuta Jinja2: en la computadora del usuario o en el servidor?
+Rta: Se ejecuta en el servidor
 
 ## Entregable
 
